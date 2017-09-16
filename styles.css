@@ -1,15 +1,43 @@
 #dark {
-    background-color: rgb(31, 46, 71);
+    background-color: rgb(29, 31, 33);
+    font-family: arial,helvetica,sans-serif;
+    font-size: 10pt;
 }
 
 #dark a:link{
-    color: white
+    color: #81a2be
 }
 
 #dark a:visited{
-    color: white
+    color: #81a2be
 }
 
 #light {
     background-color: lightblue
+}
+
+#dark hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+#redtext {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size:12pt;
+}
+
+.post{
+    display: table;
+    background-color: #282a2e;
+    color: white;
+    border: 1px solid ##282a2e;
+    margin-bottom: 5px;
+    margin-left: 16px;
+    margin-top: 2px;
+    margin-right: 4px;
+    padding: 0.5em 5em 0.5em 0.6em;
+    max-width: 94%;
 }
