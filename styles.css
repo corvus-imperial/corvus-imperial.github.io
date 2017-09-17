@@ -1,9 +1,11 @@
 a:link{
-    color: #81a2be
+    color: #81a2be;
+    text-decoration: none;
 }
 
 a:visited{
-    color: #81a2be
+    color: #81a2be;
+    text-decoration: none;
 }
 
 .center1 {
@@ -127,7 +129,7 @@ td, th, summary, details {
     height: 500px;
     margin: auto;
     margin-top: 40px;
-    overflow: hidden
+    overflow: hidden;
 }
 
 #contbox {
@@ -139,6 +141,7 @@ td, th, summary, details {
     position: relative;
     left: 650px;
     bottom: 120px;
+    vertical-align: middle;
 }
 
 #conttext {
@@ -146,6 +149,8 @@ td, th, summary, details {
     bottom: 16px;
     right: 1px;
     font-size: 17px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .box {
