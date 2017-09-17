@@ -1,34 +1,54 @@
-#dark {
+a:link{
+    color: #81a2be
+}
+
+a:visited{
+    color: #81a2be
+}
+
+.center1 {
+    display: table;
+    width: 100%;
+}
+.center2 {
+    padding: 10px;
+    display: table-cell;
+    text-align: center;
+}
+
+.dark {
     background-color: rgb(29, 31, 33);
     font-family: arial,helvetica,sans-serif;
     font-size: 10pt;
+    color: aliceblue;
 }
 
-#dark a:link{
-    color: #81a2be
-}
-
-#dark a:visited{
-    color: #81a2be
-}
-
-#op{
+.op{
     color: aliceblue;
     margin-left: 16px;
         
 }
 
-#light {
-    background-color: lightblue
+.pattern {
+    background-image: url(1401775697667.jpg);
+    background-attachment: local;
+    font-family: arial,helvetica,sans-serif;
+    color: aliceblue;
 }
 
-#dark hr {
+.dark hr {
     border: 0;
     height: 0;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.pattern hr {
+    border: 0;
+    height: 0;
+    border-top: 2px solid rgba(255, 255, 255, 0.3);
 
 }
-#redtext {
+.redtext {
     color: red;
     font-weight: bold;
     text-align: center;
@@ -37,7 +57,7 @@
     border: 0;
 }
 
-#post{
+.post{
     display: table;
     background-color: #282a2e;
     color: white;
@@ -49,3 +69,21 @@
     padding: 0.5em 5em 0.5em 0.6em;
     max-width: 94%;
 }
+
+.post2{
+    display: inline-block;
+    border: 0px;
+    text-align: center;
+    background-color: #282a2e;
+    color: white;
+    padding: 3px;
+    margin: 3px;
+    width: 80%;
+}
+
+.post:hover{
+    background-color: black;
+}
+
+/*testing*/
+
