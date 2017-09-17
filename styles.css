@@ -12,6 +12,12 @@
     color: #81a2be
 }
 
+#op{
+    color: aliceblue;
+    margin-left: 16px;
+        
+}
+
 #light {
     background-color: lightblue
 }
@@ -27,6 +33,8 @@
     font-weight: bold;
     text-align: center;
     font-size:12pt;
+    margin: 0;
+    border: 0;
 }
 
 .post{
