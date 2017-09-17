@@ -16,6 +16,12 @@ a:visited{
     text-align: center;
 }
 
+.center3 {
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
 .dark {
     background-color: rgb(29, 31, 33);
     font-family: arial,helvetica,sans-serif;
@@ -40,6 +46,14 @@ a:visited{
     border: 0;
     height: 0;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dgreen{
+    background-color: #3e594e   
+}
+
+.dred{
+    background-color:#701919
 }
 
 .pattern hr {
@@ -79,11 +93,71 @@ a:visited{
     padding: 3px;
     margin: 3px;
     width: 80%;
+    
+}
+
+.post3{
+    position: relative;
+    left: 200px;
+    top: 200px;
+    border: 1px solid white;
+    background-color: #282a2e;
+    color: white;
+    width: 10%;
 }
 
 .post:hover{
     background-color: black;
 }
 
+table{
+    min-width: 20%;
+    text-align: center;
+    border: 1px solid white;  
+    border-collapse: collapse;
+}
+
+td, th, summary, details {
+    border: 1px solid white;  
+}
 /*testing*/
 
+#frontpagebox {
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    margin-top: 40px;
+    overflow: hidden
+}
+
+#contbox {
+    background-color: #1a1a1a;
+    border-style: double;
+    border-color: #d9d9d9;
+    width: 130px;
+    height: 50px;
+    position: relative;
+    left: 650px;
+    bottom: 120px;
+}
+
+#conttext {
+    position: relative;
+    bottom: 16px;
+    right: 1px;
+    font-size: 17px;
+}
+
+.box {
+    background-color: #1a1a1a;
+    border-style: double;
+    border-color: #d9d9d9;
+}
+
+.none{
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    margin-top: 40px;
+    
+}
