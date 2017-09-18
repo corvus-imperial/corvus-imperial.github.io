@@ -167,3 +167,102 @@ td, th, summary, details {
     margin-top: 40px;
     
 }
+
+/*Navbar*/
+
+#navbar{ /*Main navbar*/
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    width:90%;
+}
+
+#navbar ul{/*Lists within Navbar*/
+    margin: 0;
+    padding: 0;
+    list-style-type: none; /*disables bullets*/
+    background-color: #282a2e;/*Adds background colour*/
+    overflow: visible;
+    text-align: center;
+}
+
+#navbar ul > li { /*List Items in Lists Within Navbar*/
+    display: block;
+    float: left; /*Puts List Items into Horizontal position*/
+    width: 120px; /*Sets List Item Width*/
+    
+}
+
+#navbar li > a{ /*Links within list items*/
+    display: block;
+    width: 109px; /*Define link Length*/
+    background-color: #282a2e; /*Adds background colour*/
+    border-right: 1px blue solid; /*Shows Edge*/
+    line-height: 30px; /*Increases Size*/
+    font-size: 17px;
+    color: azure; /*Font formatting*/
+    padding: 0 0 0 10px; /*Adds padding to hide space between items*/
+    
+}
+
+#navbar ul ul {/*Nested Lists*/
+    margin-top: 2px;
+    display: none; /*Hides Nested Lists*/
+    text-align: center;
+}
+
+#navbar ul ul li{ /*List items within Nested lists*/
+    position:relative;
+    float: none;
+    display: inline;
+    height: 28px;
+    width: 100%;
+    border: none;
+} 
+
+#navbar ul ul li >a{/*Links in list items in nested lists*/
+    height: 100%;
+    width: 96%;
+    padding: 0 0 0 4%;
+    line-height: 28px;
+    background-color: transparent; /*Keeps colour of navbar*/
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-style: normal;
+}
+    
+
+
+#navbar li:hover > a{ /*Behaviour of list items in navbar when links are hovered over*/
+    color: blue; /*Text Goes Blue*/
+    background-color: black; /**Background goes Black*/
+    
+}
+
+#navbar li:hover > ul{ /*Behaviour of lists within list items when hovered over*/
+    display: block; /*Displays Nested Lists*/
+}
+
+
+/*Exercise*/
+
+.follow{
+    display: inline-block;
+    position: fixed;
+    background-color: #282a2e;
+    margin: 0px;
+    color: white;
+    width: 120px;
+    border: 1px black solid;
+    top: 10%;
+    
+    
+}
+
+.right{
+    width: 90%;
+    text-align:right;
+    
+}
