@@ -25,11 +25,13 @@ a:visited{
 }
 
 .dark {
+    background-image: url(1401775697667.jpg);
     background-color: rgb(29, 31, 33);
     font-family: arial,helvetica,sans-serif;
     font-size: 10pt;
     color: aliceblue;
 }
+
 
 .op{
     color: aliceblue;
@@ -47,7 +49,7 @@ a:visited{
 .dark hr {
     border: 0;
     height: 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .dgreen{
@@ -56,6 +58,17 @@ a:visited{
 
 .dred{
     background-color:#701919
+}
+
+.login_link{
+    text-align: right;
+    width: 100%;
+    
+}
+
+.login_form {
+    width: 100%;
+    text-align:center;
 }
 
 .pattern hr {
@@ -88,7 +101,8 @@ a:visited{
 
 .post2{
     display: inline-block;
-    border: 0px;
+    border-style: double;
+    border-color: #d9d9d9;
     text-align: center;
     background-color: #282a2e;
     color: white;
